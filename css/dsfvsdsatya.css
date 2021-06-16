@@ -1,0 +1,65 @@
+/* Navbar Section */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar::before {
+    padding: 0px 5px;
+}
+
+
+/* Home Section */
+
+#home {
+    padding: 0px 40px;
+    height: 390px;
+}
+
+#home::before {
+    padding: 0px 10px;
+    height: 500px;
+}
+
+
+/* Service Section */
+
+#services {
+    flex-direction: column;
+}
+
+#services .box {
+    padding: 13px;
+    margin: 2px 10px;
+    border-radius: 18px;
+    margin-bottom: 9px;
+}
+
+#services .box img {
+    height: 80px;
+}
+
+
+/* Client Section */
+
+
+/* Contact Section */
+
+
+/* Utility classes */
+
+.h-primary {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.2rem;
+    padding: 0px;
+    text-shadow: 3px 4px 5px black;
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+    padding: 4px;
+}
+
+.center {
+    text-align: center;
+}
